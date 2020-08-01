@@ -15,7 +15,7 @@ body{
          background:#fff url('../images/loader.gif') center;
          background-repeat :no-repeat;
          position: fixed;
-         z-index: 999;
+         z-index: 999999999;
 
 
       }
