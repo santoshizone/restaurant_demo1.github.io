@@ -1,0 +1,696 @@
+
+	*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	overflow-x:  hidden;
+}
+
+
+#loader1{
+         width: 100%;
+         height: 100vh;
+         background:#fff url('../images/loader.gif') center;
+         background-repeat :no-repeat;
+         position: fixed;
+         z-index: 999;
+
+
+      }
+
+
+
+
+
+			/*-------navbar------*/
+
+#Navbar1 ul{
+	margin-right: 150px;
+}
+
+#Navbar1 ul li{
+	padding-left: 10px;
+}
+
+#Navbar1 ul li a{
+	font-size: 18px;
+	color: black;
+}
+#Navbar1{
+	background-color: white;
+}
+
+ #Navbar1 nav{
+	height:auto;
+	background-color: white;
+	width: 100%;
+}
+
+
+
+				/*-------------carousel1----*/
+
+.carou_h3{
+	font-size: 60px;
+	font-family: "tangerine", cursive;
+	margin-top: -350px;
+	color: orange;
+
+}
+
+
+.carou_h1{
+	font-size: 70px;
+}
+
+.carou_p1{
+	font-size: 22px;
+}
+
+.carousel .btn1{
+	width: 180px;
+	height: 50px;
+	background-color: white;
+	color: orange;
+
+	outline:3px solid orange;
+}
+
+			/*-------------section1---------------*/
+
+.sec1_h3{
+	padding-top: 50px;
+	font-family: "Tangerine", cursive;
+	color: orange;
+	font-size: 50px;
+}
+
+.sec1_h1{
+	font-size: 40px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+.sec1_ul{
+	margin-left: 50px;
+}
+
+
+			/*--------------section2-----------------*/
+
+.sec2_div1{
+	background-color: orange;
+	color: white;
+	margin: auto;
+	
+	width: 200px;
+	height: 170px;
+	
+	
+	}
+
+
+.section2{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/r4.jpg) no-repeat center center fixed;
+ 	
+ 	background-size: cover;
+ 	
+ 	height:400px;
+ 	position: relative;
+ 	
+
+}
+
+
+
+ .section2 .row{
+ 	position: absolute;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	margin :auto;
+	width: 70%;
+
+	}
+
+.col_div1{
+	border: 2px solid red;
+}
+
+
+.sec2_co_p1{
+	font-size:16px;
+	text-align: center;
+}
+
+			/*------------------section3------------*/
+
+.section3 .row{
+	
+	margin:auto;
+	
+}
+
+.section3 ul li{
+	list-style: none;
+	float: left;
+	padding :10px 20px;
+	color: black;
+	border: 1px solid orange;
+	margin-right: 15px;
+
+}
+
+.sec3_row2 .media-body{
+	margin-left: 10px;
+}
+
+.sec3_row3 .media-body{
+	margin-left: 10px;
+}
+.sec3_row3 .media-body{
+	margin-left: 10px;
+}
+.section3 .media-body{
+	margin-left: 10px;
+
+}
+
+.section .media{
+	border: none;
+	border-bottom: 1px dashed grey;
+	margin-top: 15px;
+
+}
+
+.row_h4{
+	color: orange;
+	font-size:20px;
+}
+.sec3_h3{
+	padding-top: 50px;
+	font-family: "Tangerine", cursive;
+	color: orange;
+	font-size: 50px;
+}
+
+
+
+
+.sec3_row1{
+	padding-top: 10px;
+	width: 50%;
+	
+}
+
+
+
+
+.section3 ul li{
+	background-color: orange;
+	color: white;
+}
+
+
+
+.section3 ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.section3 li:hover a{
+	color: orange;
+	
+}
+
+.section3 li:hover{
+	background-color: white;
+}
+			/*-------------section4-------------*/
+
+
+.section4{
+	background-color: black;
+}
+
+
+.sec4_h3{
+	color: orange;
+	font-size: 50px;
+	padding-top: 50px;
+	font-family: "Tangerine", cursive;
+
+
+}
+
+.sec4_h1{
+	color: white;
+	font-size: 40px;
+	margin-top: -20px;
+
+}
+
+.sec4_p1{
+	color: white;
+	font-size: 16px;
+}
+
+
+.section4 .col_div{
+	background-color: white;
+	width: 350px;
+	height: auto;
+	border: 3px solid orange;
+	border-spacing: 10px;
+	outline: 3px solid white;
+
+
+}
+
+.col2_h2{
+	font-size: 50px;
+	color: black;
+	font-family: "Tangerine", cursive;
+	color: black;
+	font-weight: bold;
+}
+
+
+.col2_p1{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+.section4 input{
+	width: 100%;
+	height: 40px;
+
+}
+
+.section4 select{
+	width: 100%;
+	height: 40px;
+}
+
+
+			/*---------------section5------------*/
+
+.sec5_h3{
+	color: orange;
+	font-size: 50px;
+	padding-top: 50px;
+	font-family: "Tangerine", cursive;
+
+
+}
+
+.sec5_h1{
+	color: black;
+	font-size: 40px;
+	margin-top: -20px;
+
+}
+
+
+.section5_row{
+	display: flex;
+	
+}
+
+.section5 .row1_photo1{
+	margin: auto;
+
+
+}
+.section5 .row2_photo1{
+	margin: auto;
+
+
+}
+.section5 .row3_photo1{
+	margin: auto;
+
+
+}
+
+
+.section5 .row1_photo1{position: relative;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	
+}
+.text{
+	
+	position:absolute;
+
+		transition:2s ease;
+		color:white;
+		top:0;
+		left:0;
+		bottom: 0;
+		opacity: 0;
+		background:black;
+		
+		width: 100%;
+		height: 100%;
+}
+ .row1_photo1:hover .text{
+	opacity:.8
+}
+
+.text{
+	font-size: 120px;
+	color: white;
+	text-align: center;
+	padding-top:50px;
+
+}
+
+.row2_photo1{position: relative;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	
+}
+.row2_photo1:hover .text{
+	opacity:.8
+}
+
+.row3_photo1{position: relative;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	
+}
+.row3_photo1:hover .text{
+	opacity:.8
+}
+
+
+				/*-------section6--------*/
+
+
+.section6{
+	position: relative;
+}
+.sec6_con1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	height: 400px;
+}
+
+#demo{
+	
+	color: white;
+
+}
+
+#demo .carousel-indicators{
+	color: white;
+
+
+}
+
+
+
+.carou_p1{
+	font-size:22px;
+}
+#demo .carou_h1{
+	font-size: 22px;
+}
+
+.sec6_h3{
+	color: orange;
+	font-size: 50px;
+	padding-top: 40px;
+	font-family: "Tangerine", cursive;
+
+
+}
+
+.sec6_h1{
+	color: white;
+	font-size: 40px;
+	margin-top: -20px;
+
+}
+
+			/*-----------------section7--------------*/
+
+
+.sec7_h3{
+	color: orange;
+	font-size: 50px;
+	padding-top: 40px;
+	font-family: "Tangerine", cursive;
+
+
+}
+
+.sec7_h1{
+	color:black;
+	font-size: 40px;
+	margin-top: -20px;
+
+
+}
+
+.card-title{
+	color: orange;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+		/*--------------section8--------------*/
+
+.sec8_h3{
+	color: orange;
+	font-size: 50px;
+	padding-top: 40px;
+	font-family: "Tangerine", cursive;
+
+
+}
+
+.sec8_h1{
+	color:black;
+	font-size: 40px;
+	margin-top: -20px;
+
+
+}
+
+.section8{
+	background-color: #f8f8f8;
+}
+
+
+.section8 input{
+	width: 100%;
+	height: 40px;}
+
+	
+
+
+.col2_h4{
+	border: none;
+	border-bottom: 3px solid orange;
+	width: 160px;
+	color:black;
+
+
+
+
+}
+
+.section8 .col2_p1{
+	font-size:16px;
+	color: grey;
+	line-height:26px;
+}
+
+
+.col2_p2{
+	font-size:18px;
+	font-weight: bold;
+	color: grey;
+
+
+}
+
+form{
+	font-size: 20px;
+	color: black;
+}
+
+.sec8_col2{
+	padding-left:40px;
+}
+
+.sec8_btn:hover{
+	background-color: orange;
+	color: white;
+}
+
+
+
+			/*-------------------footer--------------------*/
+
+.footer{
+	background-color: black;
+	height: 200px;
+}
+
+.foot_icon{
+	font-size: 20px;
+}
+
+.foot_div1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: grey;
+}
+.foot_div2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 60px;
+	margin-top: -50px;
+
+}
+.foot_div3{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 120px;
+	margin-top: -50px;
+}
+.foot_div4{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 180px;
+	margin-top: -50px;
+}
+.foot_div5{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: grey;
+	margin-left: 240px;
+	margin-top: -50px;
+}
+
+
+.footer .row{
+	width: 30%;
+	margin: auto;
+	padding-top:  50px;
+}
+
+.foot_div1:hover{
+	background: orange;
+}
+.foot_div2:hover{
+	background: orange;
+}
+.foot_div3:hover{
+	background: orange;
+}
+.foot_div4:hover{
+	background: orange;
+}
+.foot_div5:hover{
+	background: orange;
+}
+
+.foot_p1{
+	color: white;
+	font-size: 17px;
+	margin-left: -70px;
+	margin-top:10px; 
+}
+
+.foot_p1 span:hover{
+	color: orange;
+}
+
+
+
+
+
+ #myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color: orange; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+ @media only screen and (max-width: 800px) {
+ 
+ 	.section2{
+ 		height: 800px;
+
+ 	}
+ 	.sec2_div1{
+ 		margin-top: 5px;
+ 	}
+ 	.sec3_row1{
+ 		width: 100%;
+ 	}
+ 	.section2 .sec2_row{
+ 		width: 90%;
+ 	}
+
+ 	.footer .row{
+ 		width:100%;
+ 	}
+ 	.foot_p1{
+ 		margin-left:-12px; 
+ 	}
+ 	.section3 ul li{
+ 		padding: 5px 0px;
+ 		margin-right: 3px;
+ 	}
+ 	.media{
+ 		margin-left: 10px;
+ 	}
+
+ 	}
+
+
+ 
