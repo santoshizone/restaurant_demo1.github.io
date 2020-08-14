@@ -662,10 +662,16 @@ form{
 
  @media only screen and (max-width: 800px) {
  
+
+ .carou_h1{
+ 	font-size: 50px;
+ }
  	.section2{
  		height: 800px;
 
  	}
+
+
  	.sec2_div1{
  		margin-top: 5px;
  	}
